@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+header {
+  background: #8bb8e2ff;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 30px;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.breadcrumb a {
+  text-decoration: none;
+  color: #0073e6;
+}
+.product {
+  display: flex;
+  gap: 20px;
+}
+.product img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+.product-info h2 {
+  margin: 0;
+}
+.price {
+  color: #058816;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.variants {
+  margin: 10px 0;
+}
+.color-options span,
+.size-options span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.color-options span:hover,
+.size-options span:hover {
+  background: #f0f0f0;
+}
+.order-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.description {
+  margin-top: 100px;
+}
